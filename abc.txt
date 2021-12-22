@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class WeekendPlan
+{
+public static void main(String args[])
+{
+  Scanner sc=new Scanner(System.in);
+   System.out.println("Enter your weekend plan");
+   System.out.println("Enter 1 for Movies\nEnter 2 for Shopping\nEnter 3 for Eating Out\nEnter 4 for No plan");
+   int a=sc.nextInt();
+   if(a==1)
+   System.out.println("Going for Movie");
+else if(a==2)
+System.out.println("Going for Shopping");
+else if(a==3)
+System.out.println("Eating out");
+else if(a==4)
+System.out.println("Sleep");
+}
+}
